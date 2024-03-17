@@ -1,4 +1,28 @@
-# projet fin d'étude master # Modeling water quality index using deep learning ,machine learning and statistic algorithmes
+# Project: Modeling Water Quality Index using Deep Learning, Machine Learning, and Statistical Algorithms
+## Overview
+This is a master's thesis project focused on modeling the Water Quality Index (WQI) using various data science techniques, including deep learning, machine learning, and statistical algorithms. The project utilizes two datasets: one from India and another from Hong Kong. The Indian dataset is used for comparison with existing literature, while the Hong Kong dataset is used for forecasting using CNN, LSTM, and ARIMA models.
+
+## Contents
+- Problem Statement
+- Dataset Description
+- Approach
+- Data Preprocessing
+- Modeling Techniques
+- Evaluation Metrics
+- Results and Analysis
+- Conclusion
+- Future Work
+- References
+## roblem Statement
+The main objective of this project is to develop accurate models for predicting the Water Quality Index (WQI) based on various water quality parameters. The models should be capable of forecasting the WQI values accurately, which can be crucial for water quality management and environmental monitoring.
+
+## Dataset Description
+Indian Dataset: Contains water quality data from various locations in India. This dataset is used for comparing the model's performance with existing literature.
+Hong Kong Dataset: Consists of water quality data from different monitoring stations in Hong Kong. This dataset is utilized for forecasting WQI values using CNN, LSTM, and ARIMA models.
+## Approach
+- Data Preprocessing: Cleaning the datasets, handling missing values, and performing feature engineering.
+- Modeling Techniques: Implementing deep learning (CNN, LSTM), machine learning (Random Forest, Gradient Boosting), and statistical (ARIMA) models for WQI prediction.
+- Evaluation Metrics: Using appropriate metrics such as RMSE, MAE, and R-squared to evaluate model performance.
 
 ![: The Framework of the proposed methodology](Articles/Article/Images/image0.png)
 
@@ -220,11 +244,12 @@ WQI advances.
 
 Ce projet est sous la licence [MIT](https://choosealicense.com/licenses/mit/).
 
-## Instructions d'exécution
-
-1. Clonez ce dépôt sur votre machine locale.
-2. Assurez-vous d'avoir Python et les dépendances nécessaires installées.
-3. Lancez l'application en exécutant la commande suivante :
+## How to Use
+Clone or download the project repository.
+Install the required dependencies (Python libraries, frameworks).
+Follow the step-by-step guide provided in each section of the project.
+Utilize the provided datasets to replicate the experiments and analyses.
+Customize and modify the project as needed for further research or applications.
 
 
 ## Remarques
